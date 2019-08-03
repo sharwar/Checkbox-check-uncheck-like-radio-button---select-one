@@ -1,0 +1,9 @@
+//html
+<input type="checkbox" name="con_checkbox[]" id="ck-dist" class="cb" value="distribution"><label for="ck-dist">Distribution</label>
+<input type="checkbox" name="con_checkbox[]" id="ck-whole" class="cb" value="wholesale"><label for="ck-whole">Wholesale</label>
+  
+  
+  //jQuery --Checkbox check uncheck like radio button
+	$(".cb").change(function () {
+		$(".cb").not(this).prop('checked', false);
+	});
