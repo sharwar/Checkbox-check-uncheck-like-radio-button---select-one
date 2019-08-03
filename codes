@@ -7,3 +7,7 @@
 	$(".cb").change(function () {
 		$(".cb").not(this).prop('checked', false);
 	});
+
+
+
+//sometimes we need the checkbox behaviour as radio button . For this jquery code is good ^
